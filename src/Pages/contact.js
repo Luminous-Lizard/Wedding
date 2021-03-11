@@ -127,7 +127,7 @@ const StyledContact = styled(motion.div)`
   button {
     border: none;
     height: 2rem;
-    width: 5rem;
+    width: 4rem;
     border-radius: 5rem;
     background-color: #9db49a;
     color: whitesmoke;
