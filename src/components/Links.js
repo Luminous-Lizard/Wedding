@@ -28,8 +28,12 @@ const Links = ({ navbarStatus, setNavbarStatus }) => {
               Over Ons
             </Link>
           </li>
-          <li className="nav-link contact">
-            <Link onClick={() => setNavbarStatus(!navbarStatus)} to="/contact">
+          <li className="contact">
+            <Link
+              className="nav-link"
+              onClick={() => setNavbarStatus(!navbarStatus)}
+              to="/contact"
+            >
               Contact
             </Link>
           </li>

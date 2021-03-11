@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 // Images
 import Ring from "../img/rings2.png";
+// Scroll top
+import ScrollTop from "../components/ScrollTop";
 
 const About = () => {
   return (
@@ -44,6 +46,7 @@ const About = () => {
           </p>
         </div>
       </AboutContent>
+      <ScrollTop />
     </StyledAbout>
   );
 };
@@ -52,6 +55,7 @@ const StyledAbout = styled(motion.div)`
   margin-top: 60px;
   align-content: center;
   height: 100vh;
+  width: 100vw;
   h1 {
     padding: 20px;
     display: flex;

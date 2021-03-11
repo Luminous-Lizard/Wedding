@@ -6,6 +6,8 @@ import Intro from "../components/Poem";
 import Info from "../components/Info";
 // Images
 import Sketch from "../img/trouwkaart de goede 2.png";
+// Scroll top
+import ScrollTop from "../components/ScrollTop";
 
 const Home = () => {
   return (
@@ -23,6 +25,7 @@ const Home = () => {
           </div>
         </Section1>
       </StyledLanding>
+      <ScrollTop />
     </StyledHome>
   );
 };

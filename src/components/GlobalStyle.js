@@ -43,7 +43,6 @@ body {
    .not-active .nav-link {
       color: transparent;
    }
-
    .contact {
       margin-bottom: 3rem;
    }
