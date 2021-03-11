@@ -8,27 +8,33 @@ const Links = ({ navbarStatus, setNavbarStatus }) => {
   const { pathname } = useLocation();
   return (
     <Wrapper className={`links ${navbarStatus ? "active" : "not-active"}`}>
-      {/* <First className={`first ${navbarStatus ? "active" : "not-active"}`}> */}
       <Second className={`second ${navbarStatus ? "active" : "not-active"}`}>
         <ul>
           <li>
-            <Link onClick={() => setNavbarStatus(!navbarStatus)} to="/">
+            <Link
+              className="nav-link"
+              onClick={() => setNavbarStatus(!navbarStatus)}
+              to="/"
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link onClick={() => setNavbarStatus(!navbarStatus)} to="/over-ons">
+            <Link
+              className="nav-link"
+              onClick={() => setNavbarStatus(!navbarStatus)}
+              to="/over-ons"
+            >
               Over Ons
             </Link>
           </li>
-          <li>
+          <li className="nav-link contact">
             <Link onClick={() => setNavbarStatus(!navbarStatus)} to="/contact">
               Contact
             </Link>
           </li>
         </ul>
       </Second>
-      {/* </First> */}
     </Wrapper>
   );
 };
