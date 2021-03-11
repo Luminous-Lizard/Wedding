@@ -120,6 +120,9 @@ const StyledContact = styled(motion.div)`
     max-width: 150px;
     border-radius: 5rem;
   }
+  h2 {
+    font-size: 1.3rem;
+  }
 
   button {
     border: none;
