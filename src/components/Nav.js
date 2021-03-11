@@ -37,6 +37,7 @@ const StyledNav = styled(motion.div)`
   top: -150px;
   left: -150px;
   z-index: 10;
+  display: block;
   .circle {
     background-color: #9db49a;
     height: 300px;

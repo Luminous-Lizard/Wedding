@@ -53,7 +53,6 @@ const About = () => {
 
 const StyledAbout = styled(motion.div)`
   margin-top: 60px;
-  align-content: center;
   height: 100vh;
   width: 100vw;
   h1 {
@@ -82,6 +81,7 @@ const AboutContent = styled(motion.div)`
     z-index: -1;
     opacity: 0.8;
     height: 70vh;
+    object-fit: cover;
   }
   .text-container {
     line-height: 1.5;
