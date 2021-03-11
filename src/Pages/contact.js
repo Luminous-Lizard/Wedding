@@ -100,7 +100,7 @@ const Wrapper = styled(motion.div)`
 const StyledContact = styled(motion.div)`
   width: 80vw;
   background-color: #f3e8e9;
-  margin: 0rem 3rem;
+  margin: 0rem 2rem;
   .contact {
     display: flex;
     justify-content: center;
