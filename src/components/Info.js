@@ -16,7 +16,7 @@ const Info = () => {
         <Toggle title="The I Do's">
           <div className="answer">
             <p>
-              Op 20-05-2021 om 15:00 uur zullen Ingrid & Jochem elkaar het
+              Op 20-05-2021 om 14:00 uur zullen Ingrid & Jochem elkaar het
               ja-woord geven.
             </p>
             <p></p>
@@ -33,6 +33,17 @@ const Info = () => {
         </Toggle>
         <Toggle title="Laatste Nieuws">
           <div className="answer">
+            <p>
+              De aanvangstijd voor de bruiloft is om 13:30 en om 14:00 uur
+              begint de ceremonie.
+            </p>
+            <p>
+              Aan het einde van de dag staat er een verrukkelijk buffet klaar.
+            </p>
+            <p>
+              Cadeautip: <i class="fa fa-envelope"></i>
+            </p>
+
             <p>
               Lieve Dames, hier een tip van ons. Omdat de bruiloft in de tuin
               gevierd wordt, raden we jullie aan geen naaldhakken aan te
@@ -69,6 +80,10 @@ const StyledInfo = styled(motion.div)`
       font-size: 1rem;
       font-weight: lighter;
       letter-spacing: 1px;
+    }
+    button {
+      height: 50px;
+      width: 50px;
     }
   }
 `;
